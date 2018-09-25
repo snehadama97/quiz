@@ -1,0 +1,83 @@
+#body{
+    background-color:#ffffe6;
+}
+
+.modal-body{
+    color:#990000;
+}
+.navbar,.modal-header,.modal-footer{
+    background-color:#990000;
+    border-color:#990000;
+}
+
+
+
+
+
+
+
+body {
+  margin: 10px;
+}
+
+#login {
+  position: absolute;
+  width: 550px;
+  height: 280px;
+  z-index: 15;
+  top: 40%;
+  left: 40%;
+  margin: -100px 0 0 -150px;
+  background-color: #ffffcc;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+}
+
+#login1
+{
+    width:500px;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+
+#input1
+{
+  width:300px;
+}
+#submit
+{
+    background-color:#990000;
+    width:300px;
+    margin-left:20%;
+}
+
+
+#label1
+{
+    color:#990000;
+    margin-left:38%;
+}
+
+#h1
+{
+  
+    position: absolute;
+    left: 45%;
+    top: 5%;  
+    padding:20px;
+    display:none;
+}
+
+
+#form label.error
+{
+margin-right:1%;
+color:red;
+ font-size:20px;
+}
+
+label
+{
+  color:#990000;
+}

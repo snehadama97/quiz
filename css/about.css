@@ -1,0 +1,96 @@
+#body{
+    background-color:#ffffcc;
+    margin: 10px;
+}
+
+.navbar{
+    background-color:#990000;
+    border-color:#990000;
+}
+
+#a{
+    color:white;
+}
+
+#current{
+    color:#ffff99;
+}
+
+#a1{
+    color:white;
+}
+
+#h2_div
+{
+	position:absolute;
+	left:580px;
+	width:500px;
+	background-color:#990000;
+	text-align: center;
+	border-radius:10px;
+}
+
+h2
+{
+	color:#ffffcc;
+}
+
+
+.sidenav a {
+    padding: 25px 25px 2px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 1.0s;
+}
+
+.sidenav #a:hover {
+    color: #ffff99;
+}
+
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+#mySidenav{
+	background-color: #990000;
+	width:250px;
+	height:615px;
+	position:absolute;
+	top:80px;
+	left:10px;
+}
+
+#div1{
+    height:535px;
+    width:1250px;
+    background-color:#ffffcc;
+    position:absolute;
+    top:160px;
+    left:280px;
+    box-shadow: 0 0 8px 0 rgba(0,0,0,0.8);
+}
+
+#li1{ 
+    border-color:#990000;
+    background-color:#990000;
+    width:95%;
+    border-radius:10px;
+    text-align:center;
+    font-size:18px;
+    font-family:Copperplate Gothic Bold;
+}
+

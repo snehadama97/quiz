@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ 	
+<meta charset="ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+    </script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+.form-control{
+        width:40%;
+      }
+      .modal-body{
+      	color:#884dff;
+      }
+      .navbar,.modal-header,.modal-footer{
+      	background-color:#990000;
+      	border-color:#4d0000;
+      }
+      .modal-body{
+      	background-color:#eee6ff;
+      }
+      }
+      #a{
+      	color:white;
+      }
+      #a:hover{
+      	color:#ccb3ff;
+      }
+      #li1{
+        padding:10px;
+      }
+      .container_img{
+        width:500px;
+      }
+      .glyphicon {
+    font-size: 20px;
+      }
+
+
+body {
+    font-family: "Lato", sans-serif;
+    background-color:#eee6ff;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+ <!-- Navigation bar -->	
+ 
+ <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        
+        
+        <ul class="nav navbar-nav">
+          <li>
+            <a href="#" id="a" >
+              <span style="font-size:30px;cursor:pointer;=" onclick="openNav()">&#9776;</span>
+              </span>
+            </a>
+          </li>
+          <div class="navbar-header">
+          <a class="navbar-brand" href="#" style="color:white;" id="a">Somaiya inpods
+          </a></div>
+  
+	  
+		<ul class="nav navbar-nav pull-right">
+		<li class="dropdown">
+		<a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" id="a">
+          <span class="glyphicon glyphicon-option-vertical"></span>
+		 
+        </a>
+		
+		          		 <ul class="dropdown-menu dropdown-menu-right">
+                          <li>
+                            <a class="glyphicon glyphicon-cog" href="#" id="a">  Settings</a>
+                           </li>
+                           <li role="separator" class="divider"></li>
+                           <li>
+                            <a class="glyphicon glyphicon-log-out" href="#" id="a">  Logout</a>
+                          </li>
+                       </ul>
+              
+		</li>
+        </ul>
+		
+		
+      </div>
+ </nav>
+		
+		
+	
+ 
+
+     
+  <!-- Side Nav -->
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">
+          <span class="glyphicon glyphicon-user">  Profile</span>
+        </a>
+  <a href="#">
+          <span class="glyphicon glyphicon-question-sign">  Help</span>
+        </a>
+  <a href="#">
+          <span class="glyphicon glyphicon-calendar">  Calendar</span>
+        </a>
+  <a href="#">
+          <span class="glyphicon glyphicon-phone-alt">  Attendence</span>
+        </a>
+  <a href="#">
+          <span class="glyphicon glyphicon-phone-alt">  Contact</span>
+        </a>	
+  
+</div>
+
+<div id="main">
+ 
+</div>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+</nav> 
+   <!-- My Courses -->  
+   
+  <div class="container">
+    <center>
+  <h2 color="#818181">My Courses</h2>  
+  <br>
+  <table class="table table-hover" border="2" style="width:50%">
+    <thead>
+      <tr>
+	
+        <th>  <center>Section</center></th>
+        <th>  <center>Details</center></th>
+		
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td> <a href="#">
+          <span class="glyphicon glyphicon-book"></span>  IT-Sem V - 2017-18 - Web Programming-2
+        </a></td>
+        <td>  <center>Details</center></td>
+  
+      </tr>
+      <tr> 
+        <td><a href="#">
+        <span class="glyphicon glyphicon-book"></span>  IT-Sem V - 2017-18 - Advanced Database
+        </a></td>
+        <td>  <center>Details</center></td>
+      </tr>
+      <tr>
+        <td><a href="#">
+        <span class="glyphicon glyphicon-book"></span>  IT-Sem V - 2017-18 - Computer Graphics</td>
+        <td>  <center>Details</center></td>
+      </tr>
+	  
+	  </tr>
+      <tr>
+        <td><a href="#">
+        <span class="glyphicon glyphicon-book"></span>  IT-Sem V - 2017-18 - Operating System</td>
+        <td>  <center>Details</center></td>
+      </tr>
+	  
+	  </tr>
+      <tr>
+        <td><a href="#">
+        <span class="glyphicon glyphicon-book"></span>  IT-Sem V - 2017-18 - Information Theory Computer</td>
+        <td>  <center>Details</center></td>
+      </tr>
+	  
+	  </tr>
+      <tr>
+        <td><a href="#">
+        <span class="glyphicon glyphicon-book"></span>  IT-Sem V - 2017-18 - Object Oriented Software Engineering</td>
+        <td>  <center>Details</center></td>
+      </tr>
+	  
+	   </tr>
+      <tr>
+        <td><a href="#">
+        <span class="glyphicon glyphicon-book"></span>  IT-Sem V - 2017-18 - Computer Graphics - Lab</td>
+        <td>  <center>Details</center></td>
+      </tr>
+	  <tr> 
+        <td><a href="#">
+        <span class="glyphicon glyphicon-book"></span>  IT-Sem V - 2017-18 - Advanced Database - Lab
+        </a></td>
+        <td>  <center>Details</center></td>
+      </tr>
+	  <tr>
+        <td><a href="#">
+        <span class="glyphicon glyphicon-book"></span>  IT-Sem V - 2017-18 - Object Oriented Software Engineering - Lab</td>
+        <td>  <center>Details</center></td>
+      </tr>
+   </tbody>
+  </table>
+  </center>
+</div>
+ 
+  
+	 <!-- Profile page--> 	
+  <div class="container"> 	
+      <!-- Trigger the modal with a button -->
+      <!-- Modal -->
+      <div class="modal fade" id="myProfile" role="dialog">
+        <div class="modal-dialog">
+          <!-- Modal content-->
+          <div class="modal-content">
+		  <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;
+              </button>
+              <h4 class="modal-title">Profile
+              </h4>
+            </div>
+			
+			 <div class="modal-body">
+              <div class="container">		
+               <form>
+
+<i class="fa fa-user-circle" style="font-size:65px;color:blue"></i><br>
+<button type="button" class="btn btn-default" onclick="#upload">Change Profile Picture    </button>
+</form>
+</div>
+</div>
+</div>
+</div>
+
+ <!-- Upload Profile--> 
+ <div class="container"> 	
+      <!-- Trigger the modal with a button -->
+      <!-- Modal -->
+      <div class="modal fade" id="upload" role="dialog">
+        <div class="modal-dialog">
+          <!-- Modal content-->
+          <div class="modal-content">
+		  <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;
+              </button>
+              <h4 class="modal-title">Upload Profile Picture
+              </h4>
+            </div>
+			
+			 <div class="modal-body">
+              <div class="container">		
+               <form>
+			   <input type="file" value="upload file">
+			   </form>
+
+  
+</body>
+</html> 
